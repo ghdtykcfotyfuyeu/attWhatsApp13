@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { produtos } from './produt';
 import CarrinhoLateral from './assets/CarrinhoLateral';
-import { useAuth } from '../auth/AuthContext';
+import { useAuth } from './Auth/AuthContext';
 
 function App() {
   const [carrinho, setCarrinho] = useState([]);
